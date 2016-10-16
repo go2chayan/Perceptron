@@ -1,0 +1,38 @@
+README
+======
+
+I did it as a part of homework problem in the Machine Learning class taught by Prof Daniel Gildea (https://www.cs.rochester.edu/~gildea/) in Spring 2014.
+===============================================
+
+Name: Md. Iftekhar Tanveer
+Email: itanveer@cs.rochester.edu  or  go2chayan@gmail.com
+Course: CS446
+Homework: Implement the perceptron algorithm for the voting dataset, and compare results with the previous assignment.
+
+
+************** Files ***************
+README: This document
+progAss2.py: The original python script. No functions defined. Just run the file using python
+
+************* Algorithm ************
+1. split dataset
+2. alpha = 0.4
+3. Repeat until y_hat(n) != y(n) for all n OR iteration limit exceeds:
+4. 		for n = 1, ..., N:
+5. 			if sign of inner product of nth datapoint and weight vector is not equal to label:
+6.				w <---- W + alpha * nth datapoint * nth label
+7. Check accuracy on test dataset
+
+************* Results **************
+Since the dataset was split by random sample, the 
+average accuracy varies in each run. Typically it is
+close to 0.88
+
+************* Interpretations *****
+None
+
+************* References ************
+None
+
+
+
